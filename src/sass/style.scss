@@ -1,0 +1,43 @@
+// base
+@import "./base/variables";
+@import "./base/reset";
+@import "./base/base";
+
+// blocks
+@import "./blocks/header/header";
+@import "./blocks/header/top-header";
+@import "./blocks/header/navigation";
+@import "./blocks/header/phone";
+@import "./blocks/header/user";
+@import "./blocks/header/bottom-header";
+@import "./blocks/header/logo";
+@import "./blocks/header/btn";
+@import "./blocks/header/search";
+@import "./blocks/header/cart";
+
+@import "./blocks/content/main";
+@import "./blocks/content/user-info";
+@import "./blocks/content/profile";
+@import "./blocks/content/actions";
+@import "./blocks/content/products";
+@import "./blocks/content/delivery";
+@import "./blocks/content/delivery-info";
+@import "./blocks/content/delivery-phone";
+@import "./blocks/content/pay";
+@import "./blocks/content/delivery-number";
+@import "./blocks/content/status";
+@import "./blocks/content/delivery-products";
+@import "./blocks/content/product";
+@import "./blocks/content/deliverd";
+
+@import "./blocks/footer/footer";
+@import "./blocks/footer/footer-nav";
+@import "./blocks/footer/copy";
+
+@import "./blocks/mark";
+@import "./blocks/info";
+@import "./blocks/title";
+@import "./blocks/app";
+
+// media
+@import "./base/media";

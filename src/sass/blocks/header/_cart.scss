@@ -1,0 +1,15 @@
+.cart {
+    color: $nav;
+    font-weight: 500;
+    font-size: 1.125rem;
+    &__link {
+        display: flex;
+        align-items: center;
+    }
+    &__icon {
+        margin-right: 8px;
+    }
+    &__text {
+        margin-right: 8px;
+    }
+}

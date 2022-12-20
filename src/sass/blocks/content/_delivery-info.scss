@@ -1,0 +1,20 @@
+.delivery-info {
+    padding: 23px 27px 33px 40px;
+    &__top {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__number {
+        margin-right: 12px;
+    }
+    &__pay {
+        margin-left: auto;
+    }
+    &__bottom {
+        display: flex;
+        padding: 26px 0 33px;
+    }
+    &__address {
+        margin-right: 50px;
+    }
+}

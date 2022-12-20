@@ -1,0 +1,58 @@
+.product {
+    display: grid;
+    grid-template-columns: auto 4fr;
+    align-items: center;
+    padding: 20px 0;
+    &__image {
+        margin-right: 44px;
+        img {
+            max-width: 97px;
+            object-fit: contain;
+        }
+    }
+    &__info-wrapper {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    &__info {
+        & > * + * {
+            margin-top: 12px;
+        }
+    }
+    &__descr {
+        color: $active;
+        font-weight: 500;
+        font-size: 0.8125rem;
+    }
+    &__link:not(:last-child) {
+        position: relative;
+        padding-right: 10px;
+        margin-right: 4px;
+        &::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-2px);
+            width: 4px;
+            height: 4px;
+            background-color: $default;
+            opacity: 0.4;
+            border-radius: 50%;
+        }
+    }
+    &__recipe {
+        display: inline-block;
+        background-color: #C1C4C7;
+        color: #fff;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 0.875rem;
+        padding: 6px 12px;
+    }
+    &__price {
+        font-weight: 500;
+        font-size: 1.375rem;
+        margin-left: auto;
+    }
+}

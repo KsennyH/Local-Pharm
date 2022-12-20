@@ -1,0 +1,10 @@
+.main {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 60px;
+    }
+    &__content {
+        margin-bottom: 60px;
+    }
+}

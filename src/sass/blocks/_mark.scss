@@ -1,0 +1,11 @@
+.mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21px;
+    height: 21px;
+    background-color: $nav;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 0.875rem;
+}

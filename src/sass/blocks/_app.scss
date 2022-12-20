@@ -1,0 +1,49 @@
+.app {
+    background: linear-gradient(270.1deg, #8168F0 8.74%, #68F096 99.91%);
+    .container {
+        position: relative;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 65%;
+        padding: 38px 40px 38px 0;
+    }
+    &__advertising {
+        color: #fff;
+        font-weight: 500;
+        font-size: 1.625rem;
+        margin-right: 30px;
+        line-height: 1.2;
+    }
+    &__buttons {
+        display: flex;
+    }
+    &__btn {
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+        img {
+            max-width: 158px;
+        }
+    }
+    &__phones {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &__phone:first-child {
+        margin-right: -20px;
+        img {
+            max-width: 170px;
+        }
+    }
+    &__phone:last-child {
+        img {
+            max-width: 245px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.actions {
+    font-weight: 500;
+    font-size: 1.0625rem;
+    color: #8A8C94;
+    &__item + &__item {
+        margin-top: 20px;
+    }
+    &__link {
+        margin-right: 5px;
+        transition: color .5s ease-in;
+        &.active {
+            color: $default;
+        }
+        &:hover,
+        &:focus {
+            color: #000;
+        }
+    }
+    &__delivery {
+        display: inline-flex;
+        color: $nav;
+    }
+    &__delivery-link {
+        margin-right: 4px;
+    }
+}

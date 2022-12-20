@@ -1,0 +1,51 @@
+.status {
+    background-color: #F3F3F3;
+    border-radius: 5px 5px 0px 0px;
+    padding: 32px 42px 24px 50px;
+    height: 140px;
+    &__line {
+        width: 90%;
+        height: 3px;
+        background-color: #DDDFE0;
+        margin: 0 auto;
+        position: relative;
+        top: 38%;
+        transform: translateY(-1.5px);
+    }
+    &__progress {
+        height: 3px;
+        background-color: $active;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        top: 50%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &.active {
+            .status__icon circle {
+                fill: $active;
+            }
+            .status__text {
+                color: $active;
+            }
+        }
+    }
+    &__icon {
+        margin-bottom: 9px;
+        circle {
+            fill: #DDDFE0;
+        }
+        path {
+            fill: #fff;
+        }
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 1.0625rem;
+    }
+}

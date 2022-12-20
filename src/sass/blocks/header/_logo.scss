@@ -1,0 +1,20 @@
+.logo {
+    &__link {
+        display: flex;
+        align-items: center;
+    }
+    &__image {
+        margin-right: 8px;
+    }
+    &__text {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.375rem;
+        span:first-child {
+            color: $active;
+        }
+        span:last-child {
+            color: $nav;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.user {
+    display: flex;
+    align-items: center;
+    color: $nav;
+    &__icon {
+        margin-right: 9px;
+        path {
+            fill: $nav;
+        }
+    }
+    &__link {
+        margin-right: 8px;
+    }
+}

@@ -1,0 +1,14 @@
+.pay {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    text-align: right;
+    &__status {
+        font-weight: 500;
+        font-size: 1.0625rem;
+    }
+    &__summ {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+}

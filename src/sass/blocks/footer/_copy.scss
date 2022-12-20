@@ -1,0 +1,28 @@
+.copy {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    &__links {
+        display: flex;
+        align-items: center;
+    }
+    &__link {
+        transition: color .5s ease-in;
+        &:hover,
+        &:focus,
+        &:active {
+            color: #000;
+        }
+    }
+    &__item {
+        font-size: 0.875rem;
+        color: #888;
+        margin-right: 24px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__text {
+        opacity: 0.5;
+    }
+}

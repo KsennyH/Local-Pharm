@@ -1,0 +1,34 @@
+.footer-nav {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 48px 0;
+    &__assortment {
+        display: flex;
+        align-items: flex-end;
+    }
+    &__list:first-child {
+        margin-right: 60px;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 1.125rem;
+        margin-bottom: 35px;
+    }
+    &__item + &__item {
+        margin-top: 10px;
+    }
+    &__link {
+        font-size: 0.875rem;
+        color: #888;
+        padding: 5px 0;
+        transition: color .5s ease-in;
+        &--decor {
+            color: $active;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+            color: #000;
+        }
+    }
+}

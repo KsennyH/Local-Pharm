@@ -1,0 +1,31 @@
+.navigation {
+    &__list {
+        display: flex;
+        align-items: center;
+        color: $nav;
+    }
+    &__item {
+        margin-right: 24px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        transition: color .5s ease-in;
+        span {
+            margin-right: 8px;
+        }
+        &:hover,
+        &:focus,
+        &:active {
+            .navigation__icon path {
+                stroke: #000;
+            }
+            color: #000;
+        }
+    }
+    &__icon path {
+        transition: stroke .5s ease-in;
+       stroke: $nav;
+    }
+}

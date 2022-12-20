@@ -1,0 +1,12 @@
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    &__info {
+        display: flex;
+        align-items: center;
+    }
+    &__phone {
+        margin-right: 22px;
+    }
+}

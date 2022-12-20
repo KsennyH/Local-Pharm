@@ -1,0 +1,11 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-style: normal;
+    &__title {
+        font-size: 0.875rem;
+        color: #8A8C94;
+        margin-bottom: 4px;
+    }
+}
